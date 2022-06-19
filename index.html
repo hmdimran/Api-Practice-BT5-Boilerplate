@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Country Search App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <header class="text-center p-3 bg-info">
+        <div class="container">
+            <h1 class="text-light">Country Details App With API</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row pt-4 pb-5">
+                <div class="col-md-12">   
+                    <div class="input-group input-group-lg">
+                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Search Your Country Name">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Spanner Loading -->
+                <div class="d-flex justify-content-center w-100 h-100">
+                    <div class="spinner-border" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+                <!-- Card  -->
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img class="p-3" src="https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg" class="card-img-top" alt="Italy">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Card title</h5>
+                          <p class="card-text  m-2">Capital: Dhaka</p>
+                          <p class="card-text m-2">Language: Bangli</p>
+                          <a href="#" class="btn btn-primary d-block">Remove Country</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="text-center p-3 bg-info">
+        <div class="container">
+            <p class="m-0">&copy; CopytRight Developer H Imran - All Right Reserved</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
